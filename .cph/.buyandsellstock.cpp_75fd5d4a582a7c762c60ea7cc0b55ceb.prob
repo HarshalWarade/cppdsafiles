@@ -1,0 +1,1 @@
+{"name":"Local: buyandsellstock","url":"c:\\Users\\Harshal\\Desktop\\DSA C++ files\\buyandsellstock.cpp","tests":[{"id":1676027977032,"input":"[2,3,2,1,4,8,9,7,6,9]","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Harshal\\Desktop\\DSA C++ files\\buyandsellstock.cpp","group":"local","local":true}
