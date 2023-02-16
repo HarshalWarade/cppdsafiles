@@ -7,7 +7,7 @@ vector<int> findMissing(vector<int> ans, int n) {
     for(int i = 0; i <= n; i++) {
         plate.push_back(i);
     }
-    for(int i = 0; i<n - 1; i++) {
+    for(int i = 0; i < n - 1; i++) {
         for(int j = i + 1; j < n; j++) {
             if(ans[j] < ans[i]) {
                 swap(ans[i], ans[j]);
