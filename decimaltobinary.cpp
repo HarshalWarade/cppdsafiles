@@ -13,6 +13,5 @@ int main()
         product = product * 10;
     }
     cout << store << endl;
-    cout << (store & 1) << endl;
     return 0;
 }
