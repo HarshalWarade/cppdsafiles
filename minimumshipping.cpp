@@ -10,8 +10,6 @@ int returnMinimum(int arr[], int size, int days) {
         int adder = first + second;
         addCollection.push_back(adder);
     }
-    
-    cout << ;
 }
 
 int main()
