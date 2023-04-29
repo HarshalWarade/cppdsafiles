@@ -41,10 +41,15 @@ int getLength(Node* &head) {
     return cnt;
 }
 void insertAtTail(Node* &tail, int data) {
-    Node* temp = new Node(data);
-    tail -> next = temp;
-    temp -> prev = tail;
-    tail = temp;
+    if(tail == NULL) {
+        Node* temp = new Node(data);
+        tail = temp;
+    } else {
+        Node* temp = new Node(data);
+        tail -> next = temp;
+        temp -> prev = tail;
+        tail = temp;
+    }
 }
 void insertAtPos(int position, Node* &tail, Node* &head, int data) {
     // insert at head (position == 1);
