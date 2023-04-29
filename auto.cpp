@@ -12,6 +12,7 @@ class Node {
         this -> data = data;
         this -> next = NULL;
     }
+
 };
 
 void insert(Node* &head, int data) {
@@ -29,21 +30,15 @@ void print(Node* &head) {
     cout << endl;
 }
 
+
 int main() {
-
-    Node* node1 = new Node(40);
-
+    Node* node1 = new Node(26);
     Node* head = node1;
-
     print(head);
-    insert(head, 75);
+    insert(head, 46);
     print(head);
-    insert(head, 65);
-    print(head);
-    insert(head, 13);
-    print(head);
-    insert(head, 98);
-    print(head);
+    insert(head, 78);
+    print(head);    
 
     return 0;
 }
